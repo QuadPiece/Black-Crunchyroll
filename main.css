@@ -1,0 +1,119 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("crunchyroll.com") {
+  
+  a:link {color:#E64848;}      /* unvisited link */
+  a:visited {color:#E64848;}  /* visited link */
+  a:hover {color:#E64848;}  /* mouse over link */
+  a:active {color:#E64848;}  /* selected link */
+  
+  #footer_menu {
+    color: #FFF;
+    background-color: #1A1A1A;
+  }
+  
+  #tabs {
+    background: none repeat scroll 0% 0% #303030;
+  }
+  
+  .portrait-element {
+    background: none repeat scroll 0% 0% #303030;
+  }
+  
+  .availability-notes-low {
+    background: #303030;
+  }
+  
+  .sub-tabs-menu a.selected {
+    color: rgb(247,141,38);
+  }
+  
+  .welcome-news-views {
+    display: none;
+  }
+  
+  element {
+    background-color: #1A1A1A;
+  }
+  
+  .container-shadow {
+    background: none;
+  }
+  
+  #header_beta {
+    background-color: #1a1a1a;
+    box-shadow: 0px 0px 10px rgb(247,141,38);
+  }
+  
+  body, input, button, .button, textarea {
+    color: #fff;
+  }
+  
+  .footer-column h6 {
+    color: #fff;
+  }
+  
+  #template_body {
+    background-color: #1A1A1A;
+  }
+  
+  .welcome-title-list h1 a, .welcome-block h1 a {
+    color: rgb(247,141,38);
+    text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
+  }
+  
+  .welcome-simulcasts .welcome-simulcasts-collection a {
+    color: rgb(247,141,38);
+    text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
+  }
+  
+  .welcome-simulcasts .welcome-simulcasts-episode {
+    color: #E64848;
+  }
+  
+  .icon {
+    border: none;
+  }
+  
+  #showmedia_about_info_details span {
+    color: #fff;
+  }
+  
+  .collection-carousel-arrow {
+    display: none;
+  }
+  
+  .guestbook-sort-bar {
+    border: none;
+    background-color: #1A1A1A;
+  }
+  
+  #template_scroller {
+    background-color: #222;
+  }
+
+  #template_container.template-container {
+    background-color: #1A1A1A;
+    width: 960px;
+    text-align: center;
+  }
+  
+  .default-button {
+    text-shadow: none;
+    border: solid 1px rgb(247,141,38);
+    background: none;
+  }
+  
+  .dark-button.selected:hover {
+    border: solid 1px rgb(247,141,38);
+  }
+  
+  #sidebar {
+    text-align: left;
+  }
+  
+  #showforumtopic {
+    color: #000;
+    text-align: left;
+  }
+}
